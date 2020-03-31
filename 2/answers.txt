@@ -1,0 +1,12 @@
+a) Most time is spent on lines 43 and 44 according to kernprof and I would therefore optimize here. Most lines take up pretty much the same amount of memory (at least for N=50)
+
+b) factorize(n,primes) takes most time, and I would try to optimize this. Most lines take up approxmiately equal memory. Memory used in factorize(n,primes) and fast_phi(n,primes) took slighty more memory than gen_primes(n).
+
+c) With N=250 I got:
+New version took: 1.761007
+Old version took: 2.263931
+
+
+
+
+
